@@ -19,18 +19,5 @@ module AngularjsApp
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-
-    config.autoload_paths += Dir["#{config.root}/lib/**/"]
-
-    # Enable escaping HTML in JSON.
-    config.active_support.escape_html_entities_in_json = true
-
-    config.to_prepare do
-      DeviseController.respond_to :html, :json
-    end
-
-    config.active_record.schema_format = :ruby
-
-    I18n.config.enforce_available_locales = false
   end
 end

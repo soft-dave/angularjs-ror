@@ -1,9 +1,7 @@
 //= require jquery.min
-//= require suggest.min
 //= require twitter/bootstrap
 //= require angular
 //= require angular-route
-//= require ui-utils
 //= require angular-resource
 //= require angular-blocks
 //= require setup
