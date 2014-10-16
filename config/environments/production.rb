@@ -86,9 +86,9 @@ AngularjsApp::Application.configure do
     :authentication => :plain,
     :user_name      => "dave.demo99@gmail.com",
     :password       => "Davejc99",
-    :domain         => 'localhost:3000',
+    :domain         => 'angularjs-ror-app.herokuapp.com',
     :enable_starttls_auto => true
   }
 
-  config.action_mailer.default_url_options = { host: "http://localhost:3000/" }
+  config.action_mailer.default_url_options = { host: "http://angularjs-ror-app.herokuapp.com/" }
 end
