@@ -4,11 +4,11 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: crmx-v2_development
+  database: angularjs_development
   pool: 5
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: crmx-v2_test
+  database: angularjs_test
   pool: 5
